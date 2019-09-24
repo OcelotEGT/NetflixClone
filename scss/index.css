@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body .story-card {
+  border-bottom: 8px solid #222;
+}
+
+body .story-card-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .btn {
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+body .btn-red {
+  background-color: #e50914;
+  font-size: 1.875rem;
+  border: 1px solid #e50914;
+  margin: .5em .5em .5em 0;
+  padding: 1.9rem 6.9875rem 1.9rem 5.079375rem;
+}
+
+body .btn-red:hover {
+  background-color: #9c060e;
+}
+
+body header {
+  display: block;
+  padding: 18px 3%;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.05))), url("../img/background.jpg");
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url("../img/background.jpg");
+  height: 100vh;
+}
+
+body header nav {
+  height: 90px;
+}
+
+body header nav img {
+  width: 173px;
+}
+
+body header nav .logo {
+  display: inline-block;
+  line-height: 90px;
+}
+
+body header nav .btn-signin {
+  float: right;
+  line-height: normal;
+  margin-top: 18px;
+  padding: 7px 17px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body header nav h1 {
+  margin-left: 3%;
+}
+
+body header .hero-card {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+body header .hero-card h1 {
+  font-size: 4rem;
+}
+
+body header .hero-card p {
+  font-size: 1.625rem;
+}
+
+body section {
+  padding: 70px 45px;
+}
+
+body section div {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1100px;
+}
+
+body section div h1 {
+  font-size: 3.125rem;
+}
+
+body section div p {
+  font-size: 1.625rem;
+}
+/*# sourceMappingURL=index.css.map */

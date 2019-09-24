@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+
+    * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .story-card {
+        border-bottom: 8px solid #222;
+    }
+
+    .story-card-flex {
+        display: flex;
+    }
+
+    .btn {
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .btn-med {}
+
+    .btn-big {}
+
+    .btn-red {
+        background-color: #e50914;
+        font-size: 1.875rem;
+        border: 1px solid #e50914;
+        margin: .5em .5em .5em 0;
+        padding: 1.9rem 6.9875rem 1.9rem 5.079375rem;
+    }
+
+    .btn-red:hover {
+        background-color: #9c060e;
+    }
+
+    .center {}
+
+    .columns {}
+
+    .size-80 {}
+
+    header {
+        display: block;
+        padding: 18px 3%;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/background.jpg');
+        height: 100vh;
+
+        nav {
+            height: 90px;
+
+            img {
+                width: 173px;
+            }
+
+
+            .logo {
+                display: inline-block;
+                line-height: 90px;
+
+            }
+
+            .btn-signin {
+                float: right;
+                line-height: normal;
+                margin-top: 18px;
+                padding: 7px 17px;
+                font-weight: 400;
+                border-radius: 3px;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+            h1 {
+                margin-left: 3%;
+            }
+        }
+
+
+        .hero-card {
+            position: relative;
+            width: 100%;
+            padding: 75px 0;
+            max-width: 640px;
+            margin: 0 auto;
+            text-align: center;
+            z-index: 1;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 1.625rem;
+            }
+
+
+        }
+
+    }
+
+    section {
+        padding: 70px 45px;
+
+
+        div {
+            position: relative;
+            align-items: center;
+            max-width: 1100px;
+
+            h1 {
+                font-size: 3.125rem;
+            }
+
+            p {
+                font-size: 1.625rem;
+            }
+        }
+    }
+}
